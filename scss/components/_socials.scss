@@ -8,10 +8,10 @@
 .kom-ic {
     width: 44px;
     height: 44px;
-}
 
-.kom-ic:not(:last-child) {
-    margin-right: 10px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .komand-a {
@@ -25,12 +25,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.komand-a:hover,
-.komand-a:focus {
-    background-color: rgba(33, 150, 243, 1);
-
+    &:hover,
+    &:focus {
+        background-color: rgba(33, 150, 243, 1);
+    }
 }
 
 .icon-komanda {
@@ -40,10 +39,14 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.komand-a:hover .icon-komanda,
-.komand-a:focus .icon-komanda {
-    fill: #FFFFFF;
+.komand-a {
+
+    &:hover .icon-komanda,
+    &:focus .icon-komanda {
+        fill: #FFFFFF;
+    }
 }
+
 .social__caption {
     font-weight: 700;
     font-size: 14px;
@@ -58,7 +61,6 @@
     display: flex;
     justify-content: flex-start;
     padding: 0;
-
 }
 
 .social__link {
@@ -72,28 +74,28 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social__link:hover,
-.social__link:focus {
-    background-color: #2196F3;
-    animation-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        animation-duration: 250ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.social__link:hover .social__icon,
-.social__link:focus .social__icon {
-    fill: #FFFFFF;
+    &:hover .social__icon,
+    &:focus .social__icon {
+        fill: #FFFFFF;
+    }
 }
 
 .social__item {
     width: 44px;
     height: 44px;
     fill: currentColor;
-}
 
-.social__item:not(:last-child) {
-    margin-right: 10px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .social__icon {

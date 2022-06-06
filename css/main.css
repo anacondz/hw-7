@@ -89,8 +89,7 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: #2196F3;
   color: #F5F4FA;
   font-family: inherit;
@@ -144,8 +143,7 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.komand-a:hover,
-.komand-a:focus {
+.komand-a:hover, .komand-a:focus {
   background-color: #2196f3;
 }
 
@@ -206,8 +204,7 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: #2196F3;
   -webkit-animation-duration: 250ms;
           animation-duration: 250ms;
@@ -314,8 +311,7 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:hover,
-.close-btn:focus {
+.close-btn:hover, .close-btn:focus {
   color: #2196F3;
 }
 
@@ -323,8 +319,7 @@ ul {
   fill: currentColor;
 }
 
-.button--icon:hover,
-.button--icon:focus {
+.button--icon:hover, .button--icon:focus {
   background-color: #188ce8;
 }
 
@@ -363,8 +358,7 @@ ul {
   border: none;
 }
 
-.send-btn:hover,
-.send-btn:focus {
+.send-btn:hover, .send-btn:focus {
   background-color: #188ce8;
 }
 
@@ -460,8 +454,7 @@ ul {
   resize: none;
 }
 
-.textarea1:hover,
-.textarea1:focus {
+.textarea1:hover, .textarea1:focus {
   border: 1px solid #2196F3;
   outline: 0;
 }
@@ -513,10 +506,7 @@ ul {
   border-color: #2196f3;
 }
 
-.check:hover + .inp-svg1 {
-  border-color: #2196f3;
-}
-
+.check:hover + .inp-svg1,
 .check:focus + .inp-svg1 {
   border-color: #2196f3;
 }
@@ -534,15 +524,13 @@ ul {
   text-decoration: underline;
 }
 
-.input2:hover,
-.input2:focus {
+.input2:hover, .input2:focus {
   color: #2196f3;
   outline-color: #2196f3;
   border: none;
 }
 
-.textinp:hover,
-.textinp:focus {
+.textinp:hover, .textinp:focus {
   border-color: #2196f3;
 }
 
@@ -681,21 +669,8 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation__link:focus,
-.navigation__link:hover {
+.navigation__link:focus, .navigation__link:hover {
   color: #2196F3;
-}
-
-.navigation__link--current::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #2196F3;
 }
 
 .navigation__link--current {
@@ -713,15 +688,22 @@ ul {
   height: 4px;
   border-radius: 2px;
   background-color: #2196F3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196F3;
 }
 
-.navigation__link:focus,
-.navigation__link:hover {
+.navigation__link:focus, .navigation__link:hover {
   color: #2196F3;
 }
 
-.navigation__link:focus,
-.navigation__link:hover {
+.navigation__link:focus, .navigation__link:hover {
   color: #2196F3;
   -webkit-animation-duration: 250ms;
           animation-duration: 250ms;
@@ -750,8 +732,7 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contact:hover,
-.header__contact:focus {
+.header__contact:hover, .header__contact:focus {
   color: #2196F3;
 }
 
@@ -874,9 +855,6 @@ ul {
   text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.address__link--grey {
   font-size: 14px;
   line-height: 24px;
   text-decoration: none;
@@ -911,8 +889,7 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe__input:hover,
-.subscribe__input:focus {
+.subscribe__input:hover, .subscribe__input:focus {
   border-color: #2196f3;
   outline: 0;
 }
@@ -1037,27 +1014,9 @@ ul {
   color: #212121;
 }
 
-.tm1 {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.tm2 {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.tm3 {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
+.tm1,
+.tm2,
+.tm3,
 .tm4 {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1266,8 +1225,7 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client__link:hover,
-.client__link:focus {
+.client__link:hover, .client__link:focus {
   border-color: #2196F3;
   -webkit-animation-duration: 250ms;
           animation-duration: 250ms;
@@ -1299,8 +1257,7 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.pg:hover,
-.pg:focus {
+.pg:hover, .pg:focus {
   display: block;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -1337,12 +1294,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.cnt .pg:hover .overlay-card,
-.cnt .pg:focus .overlay-card {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-
 .cnt {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1351,6 +1302,12 @@ ul {
       flex-wrap: wrap;
   padding: 0;
   margin: 0;
+}
+
+.cnt .pg:hover .overlay-card,
+.cnt .pg:focus .overlay-card {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .cnt .item {

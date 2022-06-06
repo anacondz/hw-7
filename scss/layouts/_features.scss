@@ -12,32 +12,35 @@
 .feature__item {
     margin-right: 30px;
     width: 270px;
-}
 
-.feature__item:last-child {
-    margin-right: 0;
-}
+    &:last-child {
+        margin-right: 0;
+    }
 
-.feature__item::before {
-    content: "";
-    height: 120px;
-    display: block;
-    background-position: center;
-    background-color: rgba(245, 244, 250, 1);
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    margin-bottom: 30px;
+    &::before {
+        content: "";
+        height: 120px;
+        display: block;
+        background-position: center;
+        background-color: rgba(245, 244, 250, 1);
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
 }
 
 .icon-antenna::before {
-    background-image: url(../images/logo/antenna1.svg);  
+    background-image: url(../images/logo/antenna1.svg);
 }
+
 .icon-clock::before {
     background-image: url(../images/logo/clock1.svg);
 }
+
 .icon-pc::before {
     background-image: url(../images/logo/diagram1.svg);
 }
+
 .icon-cosmo::before {
     background-image: url(../images/logo/astronaut1.svg);
 }
@@ -55,8 +58,6 @@
 .features__text {
     font-size: 14px;
     line-height: 24px;
-
     letter-spacing: 0.03em;
-
     color: #757575;
 }
